@@ -1,0 +1,24 @@
+# Java / Spring Boot
+backend/target/
+
+# React / Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment secrets
+frontend/.env
+frontend/.env.local
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-dev.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
+logs/
